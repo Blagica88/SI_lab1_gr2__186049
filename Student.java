@@ -69,3 +69,21 @@ class Student {
 		return sum;
 	}
 }
+
+class Faculty{
+	List<Students> studenti;
+	String ime;
+
+	public Faculty(List<Students> studenti, String ime) {
+		studenti= new ArrayList<> ();
+		this.ime = ime;
+	}
+
+	public void addStudent (Student student){
+		studenti.add(student);
+	}
+
+
+
+
+}
